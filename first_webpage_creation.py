@@ -7,6 +7,7 @@
 
 # psuedocode
 
+from PIL import Image
 import streamlit as st
 
 # Setting the title page for the webpage
@@ -39,13 +40,16 @@ with st.container():
         )
         st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
 
+# Images file location and open them
+img_banana_loaf = Image.open("images/bananaloaf.jpg")
+
 with st.container():
     st.write("---")
     st.header("Our products")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-
+        st.image(img_banana_loaf)
         with text_column:
             st.header("Banana Loaf")
             st.write(
