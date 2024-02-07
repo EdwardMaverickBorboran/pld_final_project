@@ -18,7 +18,7 @@ with st.container():
     st.subheader("Hi there :wave:")
     st.title("Welcome to Edrick's Delights!")
     st.write("A home bakery where we make different kinds of pastries, breads, pasta and cakes, all baked with love!")
-    st.write("[Learn More >](https://www.youtube.com/watch?v=haf67eKF0uo)")
+    st.write("[Learn More >](https://www.youtube.com/watch?v=xvFZjo5PgG0)")
 
 # Describing what Edrick's Delights serve their customers
 with st.container():
@@ -40,9 +40,10 @@ with st.container():
         )
         st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
 
-# Images file location and open them
+# Images open file location section
 img_banana_loaf = Image.open("images/bananaloaf.png")
 
+# Creating a section where it shows our products
 with st.container():
     st.write("---")
     st.header("Our products")
@@ -60,3 +61,25 @@ with st.container():
             """
             )
         st.markdown("")
+
+# Contact information section
+        st.write("---")
+        st.header("Get in touch with us!")
+        st.write("##")
+        
+        # Adding the contact information tabs
+        contact_forms = """
+        <form action="https://formsubmit.co/edward.borboran714@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <textarea name="message" placeholder="Enter your message here" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        """
+
+        left_column, right_column = st.columns(2)
+        with left_column:
+            st.markdown(contact_forms, unsafe_allow_html=True)
+        with right_column:
+            st.empty()
