@@ -12,3 +12,4 @@ list. I will try to run every program that I looked up then decide which I can r
 --UPDATE!!!--
 - I decided that I will work on creating a webpage, my third choice.
 - I created another repository as to my old one keeps on failing to commit every new lines.
+- After a lot of issues in the repository, gitbash and files used for the program, I'm finally done.
