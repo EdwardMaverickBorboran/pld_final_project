@@ -41,7 +41,7 @@ with st.container():
         st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
 
 # Images file location and open them
-img_banana_loaf = Image.open("images/bananaloaf.jpg")
+img_banana_loaf = Image.open("images/bananaloaf.png")
 
 with st.container():
     st.write("---")
