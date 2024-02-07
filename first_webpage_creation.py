@@ -18,3 +18,23 @@ with st.container():
     st.title("Welcome to Edrick's Delights!")
     st.write("A home bakery where we make different kinds of pastries, breads, pasta and cakes, all baked with love!")
     st.write("[Learn More >](https://www.youtube.com/watch?v=haf67eKF0uo)")
+
+# Describing what Edrick's Delights serve their customers
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("What we serve to please our customers:")
+        st.write("##")
+        st.write(
+            """
+            On our business, we service our customers who are:
+            - blah
+            - blah
+            - blah
+            - blah
+            - blah
+            - blah
+            """
+        )
+        st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
