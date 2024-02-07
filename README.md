@@ -13,3 +13,15 @@ list. I will try to run every program that I looked up then decide which I can r
 - I decided that I will work on creating a webpage, my third choice.
 - I created another repository as to my old one keeps on failing to commit every new lines.
 - After a lot of issues in the repository, gitbash and files used for the program, I'm finally done.
+
+References:
+- https://www.youtube.com/watch?v=VqgUkExPvLY
+- https://github.com/Sven-Bo/personal-website-streamlit
+- https://blog.streamlit.io/introducing-theming/#find-your-favorite-new-theme
+- https://formsubmit.co/
+
+Message:
+Special Thanks to Coding Is fun for the short yet rich with information on building a website for a beginner like me. 
+I had a lot of fun and learned new things along the time I spend on analyzing, understanding and recreating the program 
+he build. Highly recommended chanel to watch whenever you feel lost and need to know more knowledge on coding programs 
+that can enhance your skills and abilities.
