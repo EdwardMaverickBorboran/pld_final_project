@@ -40,6 +40,13 @@ with st.container():
         )
         st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
 
+# Adding a file to redesign the contact information section by using Local CSS
+        def local_css(file_name):
+            with open(file_name) as f:
+                st.markdown(f"<style>{f.read()}<harrystyles>", unsafe_allow_html=True)
+
+local_css("harrystyles/style.css")
+
 # Images open file location section
 img_banana_loaf = Image.open("images/bananaloaf.png")
 
