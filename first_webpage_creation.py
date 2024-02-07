@@ -13,8 +13,12 @@ import streamlit as st
 # Setting the title page for the webpage
 st.set_page_config(page_title="Edrick's Delights", page_icon=":shortcake:", layout="wide")
 
+# Edrick's Delights log open file location section
+img_edrick_logo = Image.open("images/edrickslogo.png")
+
 # Adding subheader, title and descriptions
 with st.container():
+    left_column, right_column = st.columns(2)
     st.subheader("Hi there :wave:")
     st.title("Welcome to Edrick's Delights!")
     st.write("A home bakery where we make different kinds of pastries, breads, pasta and cakes, all baked with love!")
@@ -23,8 +27,8 @@ with st.container():
 # Describing what Edrick's Delights serve their customers
 with st.container():
     st.write("---")
-    left_column, right_column = st.columns(2)
-    with left_column:
+    text1_column, edrick_column = st.columns((1, 0.4))
+    with text1_column:
         st.header("What we serve to please our customers:")
         st.write("##")
         st.write(
@@ -39,6 +43,8 @@ with st.container():
             """
         )
         st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
+    with edrick_column:
+        st.image(img_edrick_logo)
 
 # Adding a file to redesign the contact information section by using Local CSS
         def local_css(file_name):
@@ -55,10 +61,14 @@ with st.container():
     st.write("---")
     st.header("Our products")
     st.write("##")
-    image_column, text_column = st.columns((1, 2))
+    image_column, text2_column = st.columns((1, 2))
+
+    # Image Column
     with image_column:
         st.image(img_banana_loaf)
-        with text_column:
+
+        # Text Column
+        with text2_column:
             st.header("Banana Loaf")
             st.write(
             """
