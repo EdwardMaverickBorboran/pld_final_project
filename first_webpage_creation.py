@@ -38,3 +38,21 @@ with st.container():
             """
         )
         st.write("[Facebook Page >](https://www.facebook.com/edricksdelights)")
+
+with st.container():
+    st.write("---")
+    st.header("Our products")
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+
+        with text_column:
+            st.header("Banana Loaf")
+            st.write(
+            """
+            A delicious, tasteful and delightful pastry that has been our top seller since 2022, 
+            the Banana Loaf is a unique delicacy on its own. With its flavorful texture in every
+            bite, you will be hungry for more.
+            """
+            )
+        st.markdown("")
