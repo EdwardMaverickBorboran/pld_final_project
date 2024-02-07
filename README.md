@@ -23,5 +23,5 @@ References:
 Message:
 Special Thanks to Coding Is fun for the short yet rich with information on building a website for a beginner like me. 
 I had a lot of fun and learned new things along the time I spend on analyzing, understanding and recreating the program 
-he build. Highly recommended chanel to watch whenever you feel lost and need to know more knowledge on coding programs 
-that can enhance your skills and abilities.
+he built. I highly recommended hischannel to watch whenever you feel lost and need to know more knowledge on coding 
+programs that can enhance your skills and abilities.
