@@ -25,3 +25,8 @@ Special Thanks to Coding Is fun for the short yet rich with information on build
 I had a lot of fun and learned new things along the time I spend on analyzing, understanding and recreating the program 
 he built. I highly recommended hischannel to watch whenever you feel lost and need to know more knowledge on coding 
 programs that can enhance your skills and abilities.
+
+Message to sir:
+Hello po sir, I'll just indicate na lang po for the reason on why ngayon lang po ako natapos sa code ko po. We've been having issues po 
+with our wifi since last week po and this week lang po nagstable yung network. Then futher issues occured po with my github repos,
+and gitbash in which ayaw po mag commit ng new changes. Thank you po sir for understanding.
